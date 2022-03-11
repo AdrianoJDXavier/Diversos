@@ -1,0 +1,19 @@
+.musica{
+    text-align: center;   
+}
+#letra{
+    border-style: dotted;
+    margin-left: 40%;
+    margin-right: 40%;
+    position: relative;
+    font-weight: bold;
+}
+#fundo{
+    opacity: 0.2;
+    position: absolute;
+    width: 300px !important;
+    height: 550px;
+    position: absolute;
+    left: 1%;
+    right: 1%;
+}

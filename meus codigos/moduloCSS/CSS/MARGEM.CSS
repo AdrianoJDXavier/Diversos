@@ -1,0 +1,47 @@
+p {
+    /* background-color: rgb(235,7,7);*/
+    margin-top: 150px;
+    margin-bottom: 200px;
+
+}
+
+p.ex {
+    background-color: chartreuse;
+    margin-right: 50%;
+    margin-left: 30%;
+    border-top-color: rgb(4, 7, 0);
+    border-right-color: darkgoldenrod;
+    border-left-color: darkred;
+    border-bottom-color: deeppink;
+
+    border-width: 15px;
+    border-style: solid;
+    /* margin-top:150px;*/
+}
+
+img {
+    border-radius: 100px 100px 100px 100px;
+    border-style: solid;
+}
+
+#bordaImg {
+    border: 20px solid darkred;
+    padding: 10px;
+    border-image-source: url("../IMAGENS/notas.jpg");
+    border-image-slice: 300;
+    border-image-repeat: repeat;
+    border-image-outset: 20px;
+    border-width: 50%;
+    margin-right: 50%;
+}
+
+#gradient {
+    border: 20px double;
+    border-image: linear-gradient(to left, #c80096, #B2FF59);
+    border-image-slice: 20;
+    border-image-repeat: stretch;
+    border-image-outset: 20px;
+    box-shadow: -10px -50px black;
+    padding: 15px 0 35px 50px;
+
+}

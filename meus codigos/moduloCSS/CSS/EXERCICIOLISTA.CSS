@@ -1,0 +1,39 @@
+#persona{
+    list-style-type: georgian;
+    list-style-position: inside; /* recuo no navegador ou outside que 
+                                   mantem o alinhamento padrão*/
+}
+#persona2{
+    list-style-type: georgian;
+    list-style-position: outside; /* recuo no navegador ou outside que 
+                                   mantem o alinhamento padrão*/
+}
+#viloes{
+    list-style-image:url("../IMAGEM/vilao3.png");
+}
+.html{
+    list-style-image:url("../IMAGENS/html5.png");
+}
+.head{
+    list-style-image:url("../IMAGENS/arquivo.png");
+}
+.body{
+    list-style-image:url("../IMAGENS/iconehtml.png");
+}
+.numeral{
+    list-style-type: decimal;
+}
+.letraMaisc{
+    list-style-type: upper-latin;
+}
+.romana{
+   list-style-type: lower-roman;
+
+}
+.letraMin{
+    list-style-type: lower-alpha;
+
+}
+#romana2{
+    list-style-type: upper-roman;
+}

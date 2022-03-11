@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Treino de montagem de tabela</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Marca:</th>
+                <th>Modelo:</th>
+                <th>Ano:</th>
+                <th>Valor:</th>
+                <th>Imagem</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Volkswagen</td>
+                <td>Golf</td>
+                <td>2009</td>
+                <td>R$38.500</td>
+                <td><img src="../IMAGEM/Carros/golf.jpg" alt="Golf prata 2009 4 portas" width="50px" height="30px"></td>
+            </tr>
+            <tr>
+                <td>Fiat</td>
+                <td>Palio</td>
+                <td>2010</td>
+                <td>R$19.700</td>
+                <td><img src="../IMAGEM/Carros/palio.jpg" alt="Palio branco 2010 4 portas" width="50px" height="30px">
+                </td>
+            </tr>
+            <tr>
+                <td>Honda</td>
+                <td>Civic</td>
+                <td>2012</td>
+                <td>R$61.500</td>
+                <td><img src="../IMAGEM/Carros/civic.jpg" alt="Civic sedan prata 2012 4 portas" width="50px"
+                        height="30px"></td>
+            </tr>
+            <tr>
+                <td colspan="5">O melhor preço da região</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <table>
+        <tr>
+            <th rowspan="4">Célula 1</th>
+        </tr>
+        <tr>
+            <td>Cédula 2</td>
+        </tr>
+        <tr>
+            <td>Cédula 3</td>
+        </tr>
+        <tr>
+            <td>Cédula 4</td>
+        </tr>
+    </table>
+</body>
+
+</html>

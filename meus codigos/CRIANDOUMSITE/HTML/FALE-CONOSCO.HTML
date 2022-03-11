@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Açai Capivara-Fale Conosco</title>
+</head>
+
+<body>
+    <hr>
+    <h2>Contato</h2>
+    <p>Preencha o formulário abaixo</p>
+    <form action="" method="post">
+        <fieldset>
+            <label form="nome">Nome</label><br>
+            <input type="text" placeholder="Digite o nome completo" name="nome" id="nomebd" maxlength="10" minlength="5"
+                required>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Preencha corretamente" name="email" id="emailbd" required>
+            <label for="number">Celular</label>
+            <input type="tel" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" placeholder="32-9935-1234">
+            <label for="date">Data de Nascimento</label>
+            <input type="date" max="2107-12-31" min="2007-01-2007">
+            <label for="idade">Idade</label>
+            <input type="number" min="15" max="100" name="idade" id="idadebd">
+        </fieldset>
+        <br>
+        <p>Qual o assunto</p>
+        <input type="radio" name="assunto" value="Elogio"><label>Elogio</label><br>
+        <input type="radio" name="assunto" value="Reclamação"><label>Reclamação</label><br>
+        <input type="radio" name="assunto" value="Solicitação"><label>Solicitação</label><br>
+        <br>
+        <label>Digite aqui</label><br>
+        <textarea name="" cols="100" rows="10"></textarea><br>
+        <input type="submit" value="Enviar resposta" id="salvar" name="salvar">
+        <input type="reset" value="Limpar" id="apagar" name="apagar">
+        <p style="font-weight: bold; font-size: 15px;">Desenvolvido por: Brenda Baldo</p>
+        <p>dados</p>
+    </form>
+</body>
+
+</html>

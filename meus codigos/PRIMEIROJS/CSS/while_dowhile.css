@@ -1,0 +1,18 @@
+p{
+    font-size: 20px;
+    text-shadow: 2px 2px 6px orangered;
+}
+select{
+    background-color: black;
+    border-radius: 9px;
+    border-color: red;
+    color: aliceblue;
+    font-size: 20px;
+    margin: auto;
+    padding: 5px;
+
+
+}
+body{
+    background-color: brown;
+}

@@ -1,0 +1,29 @@
+.mainmenubtn{
+    background-color: chartreuse;
+    color: aqua;
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 5px 10px rgb(49, 48, 48)
+}
+.mainmenubtn.houver{
+    background-color: aquamarine;
+}
+.dropdown{/* uma classe do bootstrap que cria um menu suspenso através de uma lista */
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child{/* esconder os href */
+display: none;
+min-width: 200px;
+background-color: turquoise;
+}
+.dropdown-child a{
+color: brown;
+padding: 20px;
+text-decoration: none;
+display: block;
+}
+.dropdown:hover .dropdown-child{
+    display: block;
+}

@@ -1,0 +1,18 @@
+table {
+    width: 800px;
+    caption-side: bottom;
+    font-size: 25px;
+}
+
+td {
+    border: 2px solid blue;
+    background-color: silver;
+    color: blue;
+    text-align: center;
+}
+
+caption {
+    color: red;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

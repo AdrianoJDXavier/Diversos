@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Exercício de fixação de criação de formulário</title>
+</head>
+
+<body>
+    <h3>Formulário de Pesquisa</h3>
+    <form action="" method="post">
+        <label>Nome</label>
+        <input type="text">
+        <label>Email</label>
+        <input type="email">
+        <label>Idade</label>
+        <input type="number">
+        <br>
+        <br>
+        <fieldset>
+            <legend>Fragrâncias</legend>
+            <label>Qual o tipo de Fragrância que você usa?</label>
+            <input list="Odor">
+            <datalist id="Odor">
+                <option value="Doce">Doce</option>
+                <option value="Amadeirado">Amadeirado</option>
+                <option value="Cítrica">Cítrica</option>
+            </datalist>
+        </fieldset>
+        <br>
+        <label>Qual foi a última vez que comprou um perfume?</label>
+        <select name="Tempo">
+            <option value="1 mês">1 mês</option>
+            <option value="+3 meses">+3 meses</option>
+            <option value="+6 meses">+6 meses</option>
+            <option value="Não me lembro">Não me lembro</option>
+        </select>
+        <label>Das marcas abaixo, escolha uma fragrância</label>
+        <select name="Fragrância">
+            <optgroup label="Avon">
+                <option value="Surreal Utopia">Surreal Utopia</option>
+                <option value="Far Royale">Far Royale</option>
+                <option value="Petti Atitude">Petti Atitude</option>
+            </optgroup>
+            <optgroup label="Natura">
+                <option value="Biografia">Biografia</option>
+                <option value="Essencial Deo Parfum">Essencial Deo Parfum</option>
+                <option value="Luna">Luna</option>
+            </optgroup>
+            <optgroup label="Boticário">
+                <option value="Glamour">Glamour</option>
+                <option value="Florata">Florata</option>
+                <option value="Coffe">Coffe</option>
+            </optgroup>
+        </select>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+
+</html>

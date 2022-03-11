@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="uft-8" />
+    <title>AÇAI CAPIVARA</title>
+    <link rel="stylesheet" href="../CSS/style.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../CSS/normalize.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#"><img id="logomenu" src="../IMAGEM/logotipoaçaidacapivara.png" alt=""></a>
+        <div class="menu-drop">
+            <button type="button" name="drop">
+                HOME
+            </button>
+            <div class="drop-content">
+                <a href="#sobre">Sobre</a>
+                <a href="#nutri">Nutricional</a>
+                <a href="#sabores">Sabores</a>
+                <a href="#contato">Contatos</a>
+            </div>
+        </div>
+    </nav>
+    <section id="sobre">
+        <hr>
+        <h1>AÇAÍ DA CAPIVARA</h1>
+        <p><b>O açaí mais mineiro e capivarado de Juiz de Fora!</b></p>
+        <p>Venha experimentar nossa variedade de sabores com uma pitada de mineiridade, bem no coração da cidade.</p>
+        <p>Aqui você irá encontrar toda a cremosidade e a refrescância do açaí Nordestino. Além de deliciosos sorvetes,
+            servidos na nossa casquinha tipicamente mineira. Não perca mais tempo e venha conhecer nosso espaço, que
+            está preparado com muito carinho e com uma execelente equipe.</p>
+    </section>
+    <section id="nutri">
+        <h1>Quem disse que gostoso não pode ser saudavél?</h1>
+        <div class="align">
+            <img src="../IMAGEM/CapivaraInteligente.png" width="30%" height="30%">
+            <ul>
+                <li>Altissima concentração de anti-oxidantes,que combatem os radicaislivres. o açaí possui 33x mais
+                    anti-oxidantes que o vinho tinto!</li><br>
+                <li>Gorduras do bem: suas gorduras mono e poli insaturadas ajudam a elevar o bom colesterol(HDL) e
+                    reduzir o
+                    ruim(LDL).Sua atuação no corpo se assemelha à do Azeite de Oliva Extra-Virgem. </li><br>
+                <li>Fontes de fibras, que são essenciais ao bom funcionamento do intestino e auxiliam no controle do
+                    peso.
+                </li><br>
+                <li>Nutrientes importantes para o corpo. O açaí é fonte de Proteína, Cálcio, Ferro, Potássio e Vitaminas
+                    A,
+                    B1,
+                    B2 e C.
+                </li>
+            </ul>
+        </div>
+        <div class="nutri">
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Quantidade por porção</th>
+                        <th>% VD</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Valor energetico</td>
+                        <td>107 Kcal</td>
+                        <td>5,4%</td>
+                    </tr>
+                    <tr>
+                        <td>Carboidrato</td>
+                        <td>18,5 g</td>
+                        <td>6,2%</td>
+
+                    </tr>
+                    <tr>
+                        <td>Proteínas</td>
+                        <td>1,5 g</td>
+                        <td>3%</td>
+                    </tr>
+                    <tr>
+                        <td>Gordura Totais</td>
+                        <td>3 g</td>
+                        <td>5,4%</td>
+                    </tr>
+                    <tr>
+                        <td>Gordura Trans</td>
+                        <td>0 g</td>
+                        <td>**</td>
+                    </tr>
+                    <tr>
+                        <td>Gordura saturada</td>
+                        <td>0 g</td>
+                        <td>0%</td>
+                    </tr>
+                    <tr>
+                        <td>Fibra Alimentar</td>
+                        <td>0,2 g</td>
+                        <td>0,8%</td>
+                    </tr>
+                    <tr>
+                        <td>Sódio</td>
+                        <td>14mg</td>
+                        <td>0,6%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section id="sabores">
+        <h2>Aqui você irá encontrar uma lista dos nossos principais sabores</h2>
+        <br>
+        <div class="align">
+            <h3>Açaí</h3>
+            <ul id="acai">
+                <li>açai com leite ninho</li>
+                <li>açai com banana</li>
+                <li>açaí com granola</li>
+                <li>açaí com leite condensado</li>
+            </ul>
+            <h3>Sorvete</h3>
+            <ul id="tacasorvete">
+                <li>baunilha</li>
+                <li>chocolate</li>
+                <li>morango</li>
+                <li>napolitano</li>
+            </ul>
+        </div>
+        <div id="tabelasabores">
+            <h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Monte sua própria
+                combinação!!!
+            </h2>
+            <table id="table">
+                <tr>
+                    <th>Sabor</th>
+                    <th>Calda</th>
+                    <th>Calda</th>
+                    <th>Cobertura</th>
+                    <th>Finalize</th>
+                </tr>
+                <tr>
+                    <td>
+                        <select id="Sabor">
+                            <optgroup label="Sorvete">
+                                <option value="Baunilha">Baunilha</option>
+                                <option value="Chocolate">Chocolate</option>
+                                <option value="Morango">Morango</option>
+                                <option value="Napolitano">Napolitano</option>
+                            </optgroup>
+                            <optgroup label="Açaí">
+                                <option value="açai com leite ninho">açai com leite ninho</option>
+                                <option value="açai com banana">açai com banana</option>
+                                <option value="açaí com granola">açaí com granola</option>
+                                <option value="açaí com leite condensado">açaí com leite condensado</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="calda1" id="calda1">
+                            <option value="chocolate">chocolate</option>
+                            <option value="morango">morango</option>
+                            <option value="menta">menta</option>
+                            <option value="tutti fruit">tutti fruit</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="calda2" id="calda2">
+                            <option value="chocolate">chocolate</option>
+                            <option value="morango">morango</option>
+                            <option value="menta">menta</option>
+                            <option value="tutti fruit">tutti fruit</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="cobertura" id="cobertura">
+                            <option value="paçoca">paçoca</option>
+                            <option value="confete">confete</option>
+                            <option value="bombom">bombom</option>
+                            <option value="granola">granola</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input class="button" type="submit" value="Finalizar pedido" id="salvar"
+                            name="Finalizar pedido">
+                        <input class="button" type="reset" value="Cancelar pedido" id="desistir"
+                            name="Cancelar pedido">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Preencha o formulário abaixo</p>
+        <form action="" method="post">
+            <fieldset>
+                <label form="nome">Nome</label><br>
+                <input type="text" placeholder="Digite o nome completo" name="nome" id="nomebd" maxlength="10"
+                    minlength="5" required><br>
+                <label for="email">Email</label><br>
+                <input type="email" placeholder="Preencha corretamente" name="email" id="emailbd" required><br>
+                <label for="number">Celular</label><br>
+                <input type="tel" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" placeholder="(32) 99935-1234"><br>
+                <label for="date">Data de Nascimento</label><br>
+                <input type="date" id="dtnascimento"><br>
+                <label for="idade">Idade</label><br>
+                <input type="number" name="idade" id="idadebd">
+                <p>Qual o assunto</p>
+                <input type="radio" name="assunto" value="Elogio"><label>Elogio</label>
+                <input type="radio" name="assunto" value="Reclamação"><label>Reclamação</label>
+                <input type="radio" name="assunto" value="Solicitação"><label>Solicitação</label>
+                <br>
+                <label>Digite aqui</label><br>
+                <textarea name="" cols="100" rows="10"></textarea><br>
+            </fieldset>
+            <div id="divbutton">
+                <input class="button" type="submit" value="Enviar resposta" id="enviar" name="salvar">
+                <input class="button" type="reset" value="Limpar" id="apagar" name="apagar">
+            </div>
+        </form>
+        <a href="#"><button id="topo" >Voltar</button></a>
+    </section>
+    <footer>
+        Desenvolvido por: Brenda Baldo
+    </footer>
+</body>
+
+</html>

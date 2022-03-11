@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UFT-8">
+    <title>Pesquisa</title>
+
+</head>
+
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <label form="nome">Nome</label><br>
+            <input type="text" placeholder="Digite o nome completo" name="nome" id="nomebd" maxlength="10" minlength="5"
+                required>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Preencha corretamente" name="email" id="emailbd" required>
+            <label for="idade">Idade</label>
+            <input type="number" min="15" max="100" name="idade" id="idadebd">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Fragrâncias</legend>
+            <label for="cheiro">Qual o tipo de fragrância que você usa:</label>
+            <input list="fragrância" id="frag" name="cheiro">
+            <datalist id="fragrância">
+                <option value="Doce"></option>
+                <option value="Amadeirado"></option>
+                <option value="Cítrico"></option>
+            </datalist>
+            <label for="tempo">Qual foi a última vez em que comprou perfume?</label>
+            <select name="meses" id="tempo">
+                <option value="">-----</option>
+                <option value="1 mês">1 mês</option>
+                <option value="+3 mês">+3 mês</option>
+                <option value="+6 mês">+6 mês</option>
+                <option value="não lembro">não lembro</option>
+            </select>
+            <br>
+            <label form="marca">Das marcas abaixo escolha uma fragrância</label>
+            <select id="marca">
+
+                <optgroup label="Avon">
+                    <option value="Surreal Utopia">Surreal Utopia</option>
+                    <option value="Far Royale">Far Royale</option>
+                    <option value="Pettit Attitude">Pettit Attitude</option>
+                </optgroup>
+                <optgroup label="Natura">
+                    <option value="BIOGRAFIA">BIOGRAFIA</option>
+                    <option value="ESSENCIAL DEO PARFUM">ESSENCIAL DEO PARFUM</option>
+                    <option value="LUNA">LUNA</option>
+                </optgroup>
+                <optgroup label="Boticário">
+                    <option value="Glamour">Glamour</option>
+                    <option value="Florata">Florata</option>
+                    <option value="Coffee">Coffee</option>
+            </select>
+            <label for="nota">Entre 0 a 100, quanto você considera importante o uso do perfume?</label>
+            <progress id="nota" max="100" min="0" value="56">70%</progress>
+            <div aria-busy="true" aria-describedby="progress-bar"></div>
+            <progress id="progress-bar" aria-label="contet loading..."></progress>
+            <label for="cor">Qual a sua cor preferida?</label>
+            <input type="color" name="cor" id="corbd"><br>
+            <label>Data preferida</label>
+            <input type="date" min="2019-11-15" max="2021-12-31">
+            <input type="datetime-local"><br>
+            <input type="tel" pattern="[0-9]-{2}-[0-9]-{4}-[0-9]-{4}" placeholder="32-1234-1234">
+        </fieldset>
+        <input type="submit" value="Enviar resposta" id="salvar" name="salvar">
+        <input type="reset" value="Limpar" id="apagar" name="apagar">
+    </form>
+</body>
+
+</html>

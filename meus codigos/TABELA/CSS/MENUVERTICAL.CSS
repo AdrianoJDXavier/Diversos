@@ -1,0 +1,29 @@
+ul {
+    margin-left: 50%;
+    list-style-type: none;
+    left: center;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    
+}
+li {
+    float: none;/* permite o alinhamento vertical do menu*/
+}
+img {
+    width: 10px;
+}
+a:link, a:visited {
+    display: block;
+    color: beige;
+    width: 120px;
+    font-weight: bold;
+    background-color: rgb(216, 115, 115);
+    padding: 4px;
+    border-radius: 9px;
+    text-decoration: none;
+}
+a:hover, a:active{
+    background-color: thistle;
+    text-decoration: underline;
+}

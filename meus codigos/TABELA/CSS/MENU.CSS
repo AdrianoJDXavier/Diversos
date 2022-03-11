@@ -1,0 +1,28 @@
+ul {
+    margin: 10px;
+    list-style-type: none;
+    position: absolute;
+    left: center;
+    padding: 0;
+}
+li {
+    float: left;
+    /* permite o alinhamento horizontal do menu*/
+}
+img {
+    width: 10px;
+}
+a:link, a:visited {
+    display: block;
+    color: beige;
+    width: 120px;
+    font-weight: bold;
+    background-color: rgb(216, 115, 115);
+    padding: 4px;
+    border-radius: 9px;
+    text-decoration: none;
+}
+a:hover, a:active{
+    background-color: thistle;
+    text-decoration: underline;
+}

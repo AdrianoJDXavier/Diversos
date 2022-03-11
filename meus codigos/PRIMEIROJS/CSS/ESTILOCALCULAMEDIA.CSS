@@ -1,0 +1,46 @@
+body{
+    background-color: crimson;
+}
+label{
+    font-size: 20px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input[type="text"]{
+    width: 40px;
+    background-color: aliceblue;
+    border-color: black;
+    color: blue;
+    font-size: 16px;
+    font-weight: bolder;
+}
+#labelValor1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#inputValor1{
+    position: absolute;
+    top: 15px;
+    left: 210px;
+}
+#labelValor2{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+#inputValor2{
+    position: absolute;
+    top: 55px;
+    left: 210px;
+}
+#botao{
+    position: absolute;
+    top: 110px;
+    left: 300px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-color: black;
+    font-style: italic;
+    text-transform: uppercase;
+}

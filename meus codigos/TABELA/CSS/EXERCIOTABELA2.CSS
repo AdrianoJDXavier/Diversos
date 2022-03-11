@@ -1,0 +1,19 @@
+table, td, tr, th{
+    width: 800px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(2n){ 
+    background-color: #b6b449;
+}
+
+tr:nth-child(2n - 1){ 
+    background-color: #57e987;
+}
+
+tr:hover{
+    background-color: rgb(74, 126, 204);
+    font-weight: bold;
+}

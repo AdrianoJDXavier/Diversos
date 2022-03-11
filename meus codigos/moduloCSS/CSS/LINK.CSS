@@ -1,0 +1,36 @@
+a:link,a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: greenyellow;
+    background: indigo;
+}
+a:visited{
+    text-decoration: hotpink;
+    color: hotpink;
+}
+.formatacao{
+    display: list-item;
+    list-style-position: block;
+    /* faz o elemento ficar configurado em uma linha = inline*/
+
+    /*cria uma lista = list-item*/
+    /* list-style-position: inside; obrigatorio para lista*/
+}
+img{
+    /*float: left;*/
+    margin: 5px;
+    width: 250px;
+    height: 300px;
+}
+.posicao{
+    position: fixed;
+    left: 10px;
+    top: 0;
+}
+.center{
+    display: block;
+    margin: 0px auto;
+    
+}

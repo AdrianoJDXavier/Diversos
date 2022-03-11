@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Açaí da Capivara</title>
+</head>
+
+<body>
+    <hr>
+    <h3>Aqui você irá encontrar uma lista dos nossos principais sabores</h3>
+    <br>
+    <h3>Açaí</h3>
+    <ul>
+        <li>açai com leite ninho</li>
+        <li>açai com banana</li>
+        <li>açaí com granola</li>
+        <li>açaí com leite condensado</li>
+    </ul>
+    <h3>Sorvete</h3>
+    <ul>
+        <li>baunilha</li>
+        <li>chocolate</li>
+        <li>morango</li>
+        <li>napolitano</li>
+    </ul>
+    <h3 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Monte sua própria combinação!!!
+    </h3>
+    <table border="1">
+        <tr>
+            <th>Sabor</th>
+            <th>Calda</th>
+            <th>Calda</th>
+            <th>Cobertura</th>
+            <th>Finalize</th>
+        </tr>
+        <tr>
+            <td>
+                <select id="Sabor">
+                    <optgroup label="Sorvete">
+                        <option value="Baunilha">Baunilha</option>
+                        <option value="Chocolate">Chocolate</option>
+                        <option value="Morango">Morango</option>
+                        <option value="Napolitano">Napolitano</option>
+                    </optgroup>
+                    <optgroup label="Açaí">
+                        <option value="açai com leite ninho">açai com leite ninho</option>
+                        <option value="açai com banana">açai com banana</option>
+                        <option value="açaí com granola">açaí com granola</option>
+                        <option value="açaí com leite condensado">açaí com leite condensado</option>
+                    </optgroup>
+                </select>
+            </td>
+            <td>
+                <select name="calda1" id="calda1">
+                    <option value="chocolate">chocolate</option>
+                    <option value="morango">morango</option>
+                    <option value="menta">menta</option>
+                    <option value="tutti fruit">tutti fruit</option>
+                </select>
+            </td>
+            <td>
+                <select name="calda2" id="calda2">
+                    <option value="chocolate">chocolate</option>
+                    <option value="morango">morango</option>
+                    <option value="menta">menta</option>
+                    <option value="tutti fruit">tutti fruit</option>
+                </select>
+            </td>
+            <td>
+                <select name="cobertura" id="cobertura">
+                    <option value="paçoca">paçoca</option>
+                    <option value="confete">confete</option>
+                    <option value="bombom">bombom</option>
+                    <option value="granola">granola</option>
+                </select>
+            </td>
+            <td>
+                <input type="submit" value="Finalizar pedido" id="salvar" name="Finalizar pedido">
+                <input type="reset" value="Cancelar pedido" id="Desistir" name="Cancelar pedido">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

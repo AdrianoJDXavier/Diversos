@@ -1,0 +1,20 @@
+body{
+    background-image: linear-gradient(to left,blue, yellow, green);
+}
+#ban{
+    background-image: url("../IMAGENS/bandeiradobrasil.jpeg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 30%;
+    opacity: 0.6;
+}
+.titulo{
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bolder;
+}
+.hino{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

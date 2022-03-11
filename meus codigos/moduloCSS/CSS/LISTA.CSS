@@ -1,0 +1,13 @@
+#persona{
+    list-style-type: georgian;
+    list-style-position: inside;/* recuo no navegador que mantem o alinhamento padrão*/
+
+}
+#persona2{
+    list-style-type: georgian;
+    list-style-position: outside;/* recuo no navegador que mantem o alinhamento padrão*/
+
+}
+#viloes{
+    list-style-image: url("../IMAGENS/vilao3.png");
+}

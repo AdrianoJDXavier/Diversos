@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+    <style>
+        td {
+            padding-left: 30px;
+            vertical-align: 0px;
+        }
+    </style>
+    <h3>Formulário de Pré Matrícula</h3>
+    <hr>
+    <form action="" method="post">
+        <fieldset>
+            <h4>Dados pessoais:</h4>
+            <label for="nome">Nome do aluno:</label>
+            <input type="text" name="nome" maxlength=20 minlength=5 required><br><br>
+            <label for="nascimento">Data de Nascimento</label>
+            <input type="date" name="nascimento"><br><br>
+            <label for="nome-mãe">Nome da mãe</label>
+            <input type="text" name="nome-mãe" maxlength=20 minlength=5 required><br><br>
+            <label for="nome-pai">Nome do pai</label>
+            <input type="text" name="nome-pai" maxlength=20 minlength=5 required><br><br>
+            <label for="telefone">Telefone</label>
+            <input type="tel" pattern="[0-9]-{2}-[0-9]-{5}-[0-9]-{4}" placeholder="32-12345-1234"><br><br>
+            <label for="email">Email</label>
+            <input type="email" name="Email" maxlength="50" minlength="10" required><br><br>
+        </fieldset>
+        <fieldset>
+            <h4>Informações de Matrícula:</h4>
+            <table>
+                <tr>
+                    <td>Série:</td>
+                    <td>Turno:</td>
+                    <td>Atividades Extracurriculares:</td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="Série">
+                            <option value="Pré-escolar">Pré-escolar</option>
+                            <option value="Ensino Fundamental">Ensino Fundamental</option>
+                            <option value="Ensino Médio">Ensino Médio</option>
+                            <option value="Ensino de Jovens e Adultos">Ensino de Jovens e Adultos</option>
+                            <option value="Ensino Profissionalizante">Ensino Profissionalizante</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="radio" value="Manhã" name="Turno"><label>Manhã</label><br>
+                        <input type="radio" value="Tarde" name="Turno"><label>Tarde</label><br>
+                        <input type="radio" value="Noite" name="Turno"><label>Noite</label><br>
+                    </td>
+                    <td>
+                        <input type="checkbox" value="Informática" name="atividades"><label>Informática</label><br>
+                        <input type="checkbox" value="Música" name="atividades"><label>Música</label><br>
+                        <input type="checkbox" value="Ballet" name="atividades"><label>Ballet</label><br>
+                        <input type="checkbox" value="Pintura" name="atividades"><label>Pintura</label><br>
+                        <input type="checkbox" value="Judô" name="atividades"><label>Judô</label><br>
+                        <input type="checkbox" value="Futebol" name="atividades"><label>Futebol</label><br>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <input type="submit" value="Enviar Formulário" id="salvar" name="salvar">
+        <input type="reset" value="Limpar campos" id="apagar" name="apagar">
+    </form>
+</body>
+
+</html>

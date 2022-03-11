@@ -1,0 +1,324 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #1c1c1c;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(124, 6, 139);
+}
+
+button[name="drop"] {
+    border: none;
+    cursor: pointer;
+    background-color: rgb(124, 6, 139);
+    font-size: 15px;
+    color: white;
+}
+
+.menu-drop {
+    display: inline-block;
+    position: relative;
+    margin-left: 5%;
+}
+
+.drop-content {
+    display: none;
+    background-color: rgb(124, 6, 139);
+    position: absolute;
+    z-index: 1;
+    border: 1px solid;
+}
+
+.drop-content a {
+    color: white;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-content a:hover {
+    background-color: rgb(112, 22, 124);
+}
+
+.menu-drop:hover .drop-content {
+    display: block;
+}
+
+.menu-drop:hover button[name="drop"] {
+    background-color: rgb(112, 22, 124);
+}
+
+#logomenu {
+    width: 100px;
+    height: auto;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 20px;
+    background-image: url("../IMAGEM/fundotranparente.png");
+    background-size: cover;
+    height: 400px !important;
+    /*cubrir todo o espaço*/
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(59, 9, 73);
+}
+
+#sobre h1 {
+    color: rgb(155, 94, 172);
+    text-shadow: 4px 1px 0px rgb(97, 90, 90);
+}
+
+#sobre p {
+    font-size: 25px;
+    color: rgb(3, 7, 2);
+    text-shadow: -3px -1px 40px rgb(58, 10, 28);
+    margin-bottom: 0.5em;
+    text-align: center;
+    /*margem dinamica*/
+    max-width: 10000px;
+    /*largura maxima */
+}
+
+#nutri {
+    margin-top: -25px;
+    background: rgb(36, 0, 20);
+    background: linear-gradient(90deg, rgba(117, 56, 90, 0.814) 0%, rgba(161, 84, 126, 0.879) 72%, rgba(136, 43, 123, 0.744) 100%);
+}
+
+#nutri h1 {
+    text-align: center;
+}
+
+.align {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.align ul {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.nutri {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 20px;
+    background-color: white;
+    background-image: url("../IMAGEM/acaiMorango.png");
+
+    background-size: cover;
+    /*cubrir todo o espaço*/
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(59, 9, 73);
+}
+
+.nutri table td {
+    font-size: x-large;
+    border: 1px solid rgb(46, 2, 58);
+    width: 30%;
+}
+
+.nutri th {
+    font-size: x-large;
+}
+
+#sabores h3 {
+    text-align: center;
+    margin-top: 5%;
+    margin-right: -15%;
+}
+
+#sabores h2 {
+    text-align: center;
+}
+
+#sabores {
+    padding: 2%;
+    background: rgb(36, 0, 20);
+    background: linear-gradient(90deg, rgba(117, 56, 90, 0.814) 0%, rgba(161, 84, 126, 0.879) 72%, rgba(136, 43, 123, 0.744) 100%);
+    color: white;
+}
+
+#tabelasabores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#table td {
+    width: 2%;
+}
+
+select {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.button {
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(112, 22, 124) !important;
+    border-color: rgb(112, 22, 124);
+    color: white;
+}
+
+.button:hover {
+    background-color: rgb(184, 74, 199) !important;
+    border-color: rgb(184, 74, 199);
+}
+
+#desistir {
+    width: 48%;
+}
+
+#salvar {
+    width: 48%;
+}
+
+#enviar, #apagar {
+    width: 150px !important;
+}
+
+#divbutton {
+    text-align: center;
+}
+
+#tacasorvete {
+    list-style-image: url("../IMAGEM/taçadesorvete.png");
+}
+
+#acai {
+    list-style-image: url("../IMAGEM/frutadoaçai.png");
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 20px;
+    background-image: url("../IMAGEM/fundotranparente.png");
+
+    background-size: cover;
+    /*cubrir todo o espaço*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#contato h2 {
+    color: black;
+}
+
+#contato p {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#contato fieldset {
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px #808080;
+    box-shadow: 5px 5px 15px 5px #808080;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+#contato input, textarea {
+    border-radius: 5px;
+    border-color: rgb(185, 172, 179);
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+#contato input[type="radio"] {
+    width: 10% !important;
+    margin-right: -35px !important;
+    border-color: #1c1c1c !important;
+    margin-bottom: 50px !important;
+}
+
+#contato label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#topo {
+    background-color: rgb(112, 22, 124) !important;
+    border-color: rgb(112, 22, 124);
+    color: white;
+    border-radius: 5px;
+}
+
+#topo:hover {
+    background-color: rgb(184, 74, 199) !important;
+}
+
+footer {
+    background: rgb(36, 0, 20);
+    background: linear-gradient(90deg, rgba(117, 56, 90, 0.814) 0%, rgba(161, 84, 126, 0.879) 72%, rgba(136, 43, 123, 0.744) 100%);
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    height: 100%;
+    padding: -20px;
+}
+
+/*tranformando o site em responsivo */
+@media screen and (min-width: 768px) {
+    nav {
+        flex-direction: row;
+    }
+
+    header {
+        height: 600px;
+        height: 60vh;
+        /*responsivo */
+        justify-content: center;
+    }
+
+    #sobre {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    #sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+
+    }
+
+    #sobre div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #sobre h1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    #sobres div {
+        flex: grow 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+}
